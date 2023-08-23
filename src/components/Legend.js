@@ -42,5 +42,10 @@ export const Legend = (props) => {
         Earth's velocity
       </Typography>
     </LegendItem>
+    <LegendItem>
+      <Typography>
+        Press space bar to pause
+      </Typography>
+    </LegendItem>
   </MyPaper>
 }
