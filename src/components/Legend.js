@@ -1,11 +1,12 @@
 import styled from "@emotion/styled"
-import { Paper, Typography } from "@mui/material"
+import { Link, Paper, Typography } from "@mui/material"
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 
 const MyPaper = styled(Paper)`
   position: absolute;
   padding: 1rem;
   margin: 1rem;
+  z-index: 10;
 `
 
 const LegendItem = styled.div`
@@ -55,6 +56,11 @@ export const Legend = (props) => {
     <LegendItem>
       <Typography>
         Right-click and drag to pan camera
+      </Typography>
+    </LegendItem>
+    <LegendItem>
+      <Typography>
+        See <Link href="https://explainingscience.org/2019/05/28/stellar-aberration/">this website</Link> for more information.
       </Typography>
     </LegendItem>
   </MyPaper>
