@@ -47,5 +47,15 @@ export const Legend = (props) => {
         Press space bar to pause
       </Typography>
     </LegendItem>
+    <LegendItem>
+      <Typography>
+        Click and drag to rotate camera
+      </Typography>
+    </LegendItem>
+    <LegendItem>
+      <Typography>
+        Right-click and drag to pan camera
+      </Typography>
+    </LegendItem>
   </MyPaper>
 }
